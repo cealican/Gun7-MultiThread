@@ -13,6 +13,7 @@
 		5C3937EC1C0A093700AE73B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3937EB1C0A093700AE73B2 /* Images.xcassets */; };
 		5C3937EF1C0A093700AE73B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C3937ED1C0A093700AE73B2 /* LaunchScreen.xib */; };
 		5C3937FB1C0A093700AE73B2 /* Gun7_MultiThreadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3937FA1C0A093700AE73B2 /* Gun7_MultiThreadTests.swift */; };
+		5C3938051C0A0A3E00AE73B2 /* DownloadWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3938041C0A0A3E00AE73B2 /* DownloadWork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		5C3937F41C0A093700AE73B2 /* Gun7-MultiThreadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gun7-MultiThreadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3937F91C0A093700AE73B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C3937FA1C0A093700AE73B2 /* Gun7_MultiThreadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gun7_MultiThreadTests.swift; sourceTree = "<group>"; };
+		5C3938041C0A0A3E00AE73B2 /* DownloadWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadWork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		5C3937E11C0A093700AE73B2 /* Gun7-MultiThread */ = {
 			isa = PBXGroup;
 			children = (
+				5C3938041C0A0A3E00AE73B2 /* DownloadWork.swift */,
 				5C3937E41C0A093700AE73B2 /* AppDelegate.swift */,
 				5C3937E61C0A093700AE73B2 /* ViewController.swift */,
 				5C3937E81C0A093700AE73B2 /* Main.storyboard */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C3937E71C0A093700AE73B2 /* ViewController.swift in Sources */,
+				5C3938051C0A0A3E00AE73B2 /* DownloadWork.swift in Sources */,
 				5C3937E51C0A093700AE73B2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

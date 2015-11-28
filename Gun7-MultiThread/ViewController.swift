@@ -10,9 +10,30 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var dlw = DownloadWork(title : "picture", url : "http://example.com")
+    
+    var dlw2 = DownloadWork()
+    var dlw1 = DownloadWork(title : "picture1", url : "http://example.com")
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        // NSOperation nesneleri yani threadlar bir kuyruğa eklenir ve o kuyruktan sırası gelenler direk çalıştırılır.
+        // NSOperation koyulan sırayla çekeceği garantisi yoktur
+      
+        // sıralı olması için NSOperationQueuePriority kullanılır. Ancak araştırılmalı
+        let kuyruk = NSOperationQueue()
+        
+        kuyruk.addOperation(dlw)
+        kuyruk.addOperation(dlw1)
+        kuyruk.addOperation(dlw2)
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
